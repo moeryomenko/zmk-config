@@ -91,18 +91,18 @@
 
         nav_layer {
             bindings = <
-                &bootloader  &bootloader &sys_reset   &trans     &trans        &kp HOME   &kp END    &kp C_VOL_UP &kp LS(LC(TAB)) &trans
-                &trans       &trans      &trans       &trans     &trans        &kp PRINTSCREEN   &kp CARET  &kp DLLR     &kp C_VOL_DN  &kp LC(TAB)
-                &trans       &trans      &trans       &trans     &trans        &kp LEFT   &kp DOWN   &kp UP       &kp RIGHT     &trans
+                &trans       &trans     &trans       &trans     &trans        &trans     &trans     &trans       &trans     &trans
+                &trans       &trans     &trans       &trans     &trans        &trans     &trans     &trans       &trans     &trans
+                &trans       &trans     &trans       &trans     &trans        &trans     &trans     &trans       &trans     &trans
                                               &trans     &trans                &trans     &trans
             >;
         };
 
         adjust_layer {
             bindings = <
-                &bt BT_SEL 0 &trans     &trans       &trans      &bootloader   &trans     &trans     &trans       &trans       &bootloader
-                &bt BT_SEL 1 &trans     &trans       &trans      &trans        &trans     &trans     &trans       &trans       &trans
-                &bt BT_SEL 2 &trans     &trans       &trans      &trans        &trans     &trans     &trans       &trans       &trans
+                &trans       &trans     &trans       &trans     &trans        &trans     &trans     &trans       &trans     &trans
+                &trans       &trans     &trans       &trans     &trans        &trans     &trans     &trans       &trans     &trans
+                &trans       &trans     &trans       &trans     &trans        &trans     &trans     &trans       &trans     &trans
                                               &trans     &trans                &trans     &trans
             >;
         };
