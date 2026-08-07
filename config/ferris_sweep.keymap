@@ -38,17 +38,17 @@
         compatible = "zmk,combos";
         combo_minus {
             timeout-ms = <100>;
-            key-positions = <8 23>;
+            key-positions = <6 7>;
             bindings = <&kp MINUS>;
         };
         combo_equal {
             timeout-ms = <100>;
-            key-positions = <23 24>;
+            key-positions = <16 17>;
             bindings = <&kp EQUAL>;
         };
         combo_quote {
             timeout-ms = <100>;
-            key-positions = <7 24>;
+            key-positions = <12 13>;
             bindings = <&kp SQT>;
         };
         combo_plus {
