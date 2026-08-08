@@ -91,7 +91,7 @@
 
         nav_layer {
             bindings = <
-                &bootloader  &bootloader &sys_reset   &trans     &trans        &kp HOME   &kp END    &kp C_VOL_UP &kp LS(LC(TAB)) &trans
+                &bootloader  &bootloader &sys_reset   &trans     &trans        &kp HOME   &kp END    &kp C_VOL_UP &kp LS(LC(TAB)) &kp TAB
                 &trans       &trans      &trans       &trans     &trans        &kp PRINTSCREEN   &kp CARET  &kp DLLR     &kp C_VOL_DN  &kp LC(TAB)
                 &trans       &trans      &trans       &trans     &trans        &kp LEFT   &kp DOWN   &kp UP       &kp RIGHT     &trans
                                               &trans     &trans                &trans     &trans
