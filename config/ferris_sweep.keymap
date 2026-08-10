@@ -82,7 +82,7 @@
 
         lower_layer {
             bindings = <
-                &trans       &trans     &trans       &kp F11    &kp F12       &kp GRAVE  &trans     &trans       &kp LBKT   &kp RBKT
+                &trans       &trans     &trans       &kp F11    &kp F12       &kp GRAVE  &kp PIPE     &trans       &kp LBKT   &kp RBKT
                 &hm LALT F10 &hm LCTRL F9 &hm LSHIFT F8 &hm LGUI F7 &kp F6   &kp N1     &hm RGUI N2 &hm RSHIFT N3 &hm RCTRL N4 &hm RALT N5
                 &kp F5       &kp F4     &kp F3       &kp F2     &kp F1        &kp N6     &kp N7     &kp N8       &kp N9     &kp N0
                                               &kp SPACE &kp ENTER             &kp APOSTROPHE &kp NON_US_BSLH
